@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code To text</title>
+    <style>
+        .container{
+             display: flex;
+             align-items: center;
+             justify-content: center;  
+             width: 100vw;
+             height: 100vh; 
+        }
+        input{
+            width: 200px;
+            height: 40px;
+            padding: 5px 20px;
+        }
+        .show{
+            width:  200px;
+            height: 100px;
+            margin-top: 50px;
+            text-align: center;
+            color: green;
+            font-weight: 700;
+            font-size: 50px;
+    
+        }
+    </style>
+</head>
+<body>
+     <div class="container">
+        <div class="content">
+            <input type="text" oninput="showCode(this)">
+            <div class="show">
+                0
+            </div>
+        </div>
+     </div>
+     <script>
+        function showCode(e) {
+            document.querySelector(".show").textContent = String.fromCharCode(parseInt(e.value));
+        }
+     </script>
+</body>
+</html>
