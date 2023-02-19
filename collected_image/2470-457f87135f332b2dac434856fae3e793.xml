@@ -1,0 +1,27 @@
+<annotation verified="yes">
+        <folder>2470</folder>
+        <filename>collected_image/2470-457f87135f332b2dac434856fae3e793.jpg</filename>
+        <path>D:\OneDrive - BUET\Work\signlanguage dataset\USLD\2470\collected_image/2470-457f87135f332b2dac434856fae3e793.jpg</path>
+        <source>
+            <database>Unknown</database>
+        </source>
+        <size>
+            <width>512</width>
+            <height>512</height>
+            <depth>3</depth>
+        </size>
+        <segmented>0</segmented>
+        <object>
+            <name>2470</name>
+            <pose>Unspecified</pose>
+            <truncated>1</truncated>
+            <difficult>0</difficult>
+            <bndbox>
+                <xmin>1</xmin>
+                <ymin>1</ymin>
+                <xmax>512</xmax>
+                <ymax>512</ymax>
+            </bndbox>
+        </object>
+    </annotation>
+    
